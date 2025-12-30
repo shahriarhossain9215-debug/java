@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Brand - Your Brand Name</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #444; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+        .product { display: inline-block; width: 30%; margin: 10px; text-align: center; }
+        .product img { width: 100%; height: auto; }
+        footer { text-align: center; padding: 10px; background-color: #333; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shoes Brand</h1>
+        <p>Step into style with our premium footwear</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Our Shoes Brand</h2>
+        <p>Explore our collection of comfortable, durable shoes for every occasion. From sneakers to boots, find your perfect fit.</p>
+    </div>
+    <div class="container" id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="sneakers.jpg" alt="Running Sneakers"> <!-- Replace with your image URL -->
+            <h3>Running Sneakers</h3>
+            <p>$80.00 | Sizes: 7-12</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="boots.jpg" alt="Leather Boots"> <!-- Replace with your image URL -->
+            <h3>Leather Boots</h3>
+            <p>$120.00 | Sizes: 8-13</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="sandals.jpg" alt="Casual Sandals"> <!-- Replace with your image URL -->
+            <h3>Casual Sandals</h3>
+            <p>$50.00 | Sizes: 6-11</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Our brand is dedicated to crafting high-quality shoes using sustainable materials. Comfort and style meet in every pair.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Your Shoes Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
